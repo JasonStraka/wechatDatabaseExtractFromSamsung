@@ -23,6 +23,9 @@
 [sqlcipher](https://github.com/sqlcipher/sqlcipher) 下载这个仓库，解压 `sqlcipher-master`
 
 # 4 安装pysqlcipher3
+
+以下步骤中部分需要生成或修改的文件放在仓库中，可自取，不保证可行。
+
 1 首先需要安装python 3.7，并且安装CUDA、Cudnn。装过TensorFlow的Anaconda环境都可以。在虚拟环境内运行`python -m pip install pyopencl`
 
 2 然后安装OpenSSL，注意需要将OpenSSL的dll安装到系统目录：`C:\Program Files\OpenSSL-Win64`。
